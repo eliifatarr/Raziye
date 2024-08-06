@@ -1,0 +1,66 @@
+
+ul li a{
+    color: black;
+    text-decoration: none !important; 
+}
+.roww{
+    padding-bottom: 8px;
+}
+
+.container-section{
+    background-color:#0a1019 ;
+}
+.card1{
+    background-color:#151822 !important;
+    width: 16rem;
+    height: 20rem;
+    margin-right: 2px;
+}
+.card2{
+    padding-right: 1px !important;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.container-second-section{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container-third-section{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fourth-section-container{
+    background-color:#181726 !important;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.elif{
+    margin-left: 200px !important;
+    margin-right: 200px !important;
+}
+.input-group-text{
+    background-color:#6266f1 ;
+}
+.cardd{
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.list-group li{
+    background-color: #eef2fc;
+}
+.btn1{
+    justify-content: center;
+    margin-top: 60px;
+}
+.container-footer-section{
+    margin: 50px 30px;
+    padding: 10px 6px;
+    width: 90%;
+}
+.row3{
+    padding-left: 150px;
+}
