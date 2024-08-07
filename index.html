@@ -1,143 +1,623 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
-<body>
-  <!-- navbar -->
-   <section class="bg-light hero-section">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="nav-item brand-1" href="#">
-          <img class="silicon" src="/img/logo.svg" alt="">Silicon</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavDropdown" >
-          <div>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link dropdown-toggle dr-1 landing" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Landing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">UI Kit</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Docs</a>
-            </li>
-          </ul>
-        </div>
-            <div class="d-flex d-inline">
-            <ul class="d-flex">
-            <li class="nav-item d-flex align-item-center">
-              <a class="nav-link light-logo" href="#">Light</a>
-              <label class="switch">
-                <input type="checkbox" checked>
-                <span class="slider round"></span>
-              </label>
-            </li>
-            <li class="nav-item d-flex align-item-center ">
-              <a class="nav-link" href="#">Dark</a>
-            </li>
-            <li>
-              <button type="button" class="btn-1"><img class="icon" src="/img/cart.svg" alt=""> Buy Now</button>
-            </li>
-          </ul>
-          </div>
-        </div>
-    </nav>
-    <div>
-      <div class="container d-flex justify-content-center align-items-center">
-        <h1 class="middle">Software Development</h1>
-      </div>
-      <div class="container d-flex justify-content-center align-items-center">
-        <h1 class="middle">Experts</h1>
-      </div>
-      <div>
-        <div class="container  d-flex justify-content-center align-items-center">
-          <p class="middle">We are experts with <img src="/img/clutch-rating.png" alt=""> providing the widest range<br> of IT services and solutions for growing your business.</p>
-        </div>
-      </div>
-      <div class="text-center">
-      <div class="container mt-3">
-        <button type="button" class="btn btn-second">Start your project</button>
-      </div>
-    </div>
-    </div>
-    <div class="container d-flex justify-content-center end-triple ">
-    <p><img class="pr-2" src="/img/Vector.svg" alt="">Extensive work experience<img class="pl-3 pr-2" src="/img/Vector.svg" alt="">Flexible working conditions<img class="pl-3 pr-2" src="/img/Vector.svg" alt="">Large and friendly team</p>
-    </div>
-  </section>
-    <div>
-      <div class="container">
-        <h1 class="d-flex justify-content-center mt-8 mb-5 p-5">Our Services</h1>
-        <div class="row">
-          <div class="col-lg-6 mt-5 p-5">
-            <h3>Product Design</h3>
-            <p class="text-muted">Nullam semper enim quis vulputate mollis. Donec ultrices
-              elementum mauris, ac porttitor mi cursus eget. Vestibulum
-              gravida risus et lacus finibus tincidunt. Vivamus dui ante,
-              pharetra eu blandit ac, vulputate et diam eu faucibus.</p>
-              <p class="font-weight-bold pt-3">UX/UI  Web Design  Interactive design  Motion design</p>
-              <div class="pt-3"><button type="button" class="btn-outline btn-2 ">Learn more</button></div>
-          </div>
-          <div class="col-lg-6"> <img class="img-1" src="/img/01-ligh.png" alt=""></div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mt-5 p-5">
-            <h3>Web Development</h3>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              in arcu ligula. Vestibulum euismod interdum risus eu interdum.
-              Vivamus suscipit mauris at erat ultricies, vitae placerat nulla
-              feugiat. Integer venenatis blandit efficitur.</p>
-              <img class="pr-2" src="/img/vue-light.png" alt="">
-              <img class="pr-2" src="/img/node-light.png" alt="">
-              <img class="pr-2" src="/img/java.png" alt="">
-              <img src="/img/react.png" alt="">
-              <div class="pt-3"><button type="button" class="btn-outline btn-2 ">Learn more</button></div>
-          </div>
-          <div class="col-lg-6 "><img class="img-2" src="/img/02-light.png" alt=""></div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mt-5 p-5">
-            <h3>Software Testing</h3>
-            <p class="text-muted">Phasellus posuere leo vitae quam faucibus cursus. Phasellus eu
-              ex ultrices, facilisis ex at, aliquet felis. Cras id rutrum ante.
-              Curabitur suscipit diam a facilisis laoreet. Duis id elit imperdiet
-              eros vestibulum molestie. Nulla pellentesque justo enim,</p>
-              <div class="row">
-                <div class="col-lg-6">
-                  <h2>85+</h2>
-                  <p>Tested projects</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!-- navbar -->
+        <section class="bg-light hero-section">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="nav-item brand-1" href="#">
+                    <img class="silicon" src="/img/logo.svg" alt="" />Silicon</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse d-flex justify-content-between"
+                    id="navbarNavDropdown"
+                >
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a
+                                    class="nav-link dropdown-toggle dr-1 landing"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >Landing</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >Page</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >Account</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">UI Kit</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Docs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex d-inline">
+                        <ul class="d-flex">
+                            <li class="nav-item d-flex align-item-center">
+                                <a class="nav-link light-logo" href="#"
+                                    >Light</a
+                                >
+                                <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                </label>
+                            </li>
+                            <li class="nav-item d-flex align-item-center">
+                                <a class="nav-link" href="#">Dark</a>
+                            </li>
+                            <li>
+                                <button type="button" class="btn-1">
+                                    <img
+                                        class="icon"
+                                        src="/img/cart.svg"
+                                        alt=""
+                                    />
+                                    Buy Now
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                  <h2>200+</h2>
-                  <p>Happy clients</p>
+            </nav>
+            <div>
+                <div
+                    class="container d-flex justify-content-center align-items-center"
+                >
+                    <h1 class="middle">Software Development</h1>
                 </div>
-              </div>
-            <div class="pt-3"><button type="button" class="btn-outline btn-2 ">Learn more</button></div>
-          </div>
-          <div class="col-lg-6"><img class="img-3" src="/img/03-light.png" alt=""></div>
+                <div
+                    class="container d-flex justify-content-center align-items-center"
+                >
+                    <h1 class="middle">Experts</h1>
+                </div>
+                <div>
+                    <div
+                        class="container d-flex justify-content-center align-items-center"
+                    >
+                        <p class="middle">
+                            We are experts with
+                            <img src="/img/clutch-rating.png" alt="" />
+                            providing the widest range<br />
+                            of IT services and solutions for growing your
+                            business.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="container mt-3">
+                        <button type="button" class="btn btn-second">
+                            Start your project
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-center end-triple">
+                <p>
+                    <img class="pr-2" src="/img/Vector.svg" alt="" />Extensive
+                    work experience<img
+                        class="pl-3 pr-2"
+                        src="/img/Vector.svg"
+                        alt=""
+                    />Flexible working conditions<img
+                        class="pl-3 pr-2"
+                        src="/img/Vector.svg"
+                        alt=""
+                    />Large and friendly team
+                </p>
+            </div>
+        </section>
+        <div>
+            <div class="container">
+                <h1 class="d-flex justify-content-center mt-8 mb-5 p-5">
+                    Our Services
+                </h1>
+                <div class="row">
+                    <div class="col-lg-6 mt-5 p-5">
+                        <h3>Product Design</h3>
+                        <p class="text-muted">
+                            Nullam semper enim quis vulputate mollis. Donec
+                            ultrices elementum mauris, ac porttitor mi cursus
+                            eget. Vestibulum gravida risus et lacus finibus
+                            tincidunt. Vivamus dui ante, pharetra eu blandit ac,
+                            vulputate et diam eu faucibus.
+                        </p>
+                        <p class="font-weight-bold pt-3">
+                            UX/UI Web Design Interactive design Motion design
+                        </p>
+                        <div class="pt-3">
+                            <button type="button" class="btn-outline btn-2">
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-1" src="/img/01-ligh.png" alt="" />
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mt-5 p-5">
+                        <h3>Web Development</h3>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Aenean in arcu ligula. Vestibulum euismod
+                            interdum risus eu interdum. Vivamus suscipit mauris
+                            at erat ultricies, vitae placerat nulla feugiat.
+                            Integer venenatis blandit efficitur.
+                        </p>
+                        <img class="pr-2" src="/img/vue-light.png" alt="" />
+                        <img class="pr-2" src="/img/node-light.png" alt="" />
+                        <img class="pr-2" src="/img/java.png" alt="" />
+                        <img src="/img/react.png" alt="" />
+                        <div class="pt-3">
+                            <button type="button" class="btn-outline btn-2">
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-2" src="/img/02-light.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mt-5 p-5">
+                        <h3>Software Testing</h3>
+                        <p class="text-muted">
+                            Phasellus posuere leo vitae quam faucibus cursus.
+                            Phasellus eu ex ultrices, facilisis ex at, aliquet
+                            felis. Cras id rutrum ante. Curabitur suscipit diam
+                            a facilisis laoreet. Duis id elit imperdiet eros
+                            vestibulum molestie. Nulla pellentesque justo enim,
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2>85+</h2>
+                                <p>Tested projects</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>200+</h2>
+                                <p>Happy clients</p>
+                            </div>
+                        </div>
+                        <div class="pt-3">
+                            <button type="button" class="btn-outline btn-2">
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-3" src="/img/03-light.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--section-->
+        <div class="container-section">
+            <div class="container all">
+                <h2 class="text-white text-center fw-bolder mt-3 pt-5">Our Awards</h2>
+                <p class="text-white text-center pb-5">
+                    In blandit luctus proin mauris a commodo, dolor diam tempus,
+                    aenean <br />
+                    magna fusce eu. Id porttitor aliquam eget aliquet sagittis
+                </p>
+                <div class="container cardd">
+                    <div class="row roww">
+                        <div class="col-lg-3 card2">
+                            <div class="card bg-dark card1">
+                                <img
+                                    src="img/clutch.png.png"
+                                    class="card-img-top p-3"
+                                    style="width: 200px"
+                                />
+                                <div class="card-body pt-5">
+                                    <a
+                                        href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?t=ZfZEt9nP3Gn9YlUd-0"
+                                        class="text-white fw-bolder"
+                                        >Learn more<img src="img/Vector.svg"
+                                    /></a>
+                                    <p class="card-text text-white">
+                                        Phasellus eu ex ultrices, facilisis ex
+                                        at aliquet felis rutrum ante
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 card2">
+                            <div class="card bg-dark card1">
+                                <img
+                                    src="img/good-firms.png.png"
+                                    class="card-img-top p-3"
+                                    style="width: 200px"
+                                />
+                                <div class="card-body pt-5">
+                                    <a
+                                        href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?t=sINlUQBBvvhQxO1S-0"
+                                        class="text-white fw-bolder"
+                                        >Learn more<img src="img/Vector.svg"
+                                    /></a>
+                                    <p class="card-text text-white">
+                                        Nulla pellentesque justo enim, in
+                                        elementum turpis tincidunt.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 card2">
+                            <div class="card bg-dark card1">
+                                <img
+                                    src="img/product-hunt.png.png"
+                                    class="card-img-top p-3"
+                                    style="width: 200px"
+                                />
+                                <div class="card-body pt-5">
+                                    <a
+                                        href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684"
+                                        class="text-white fw-bolder"
+                                        >Learn more <img src="img/Vector.svg"
+                                    /></a>
+                                    <p class="card-text text-white">
+                                        Donec pulvinar iaculis ex laoreet
+                                        vestibulum interdum viverra.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 card2">
+                            <div class="card bg-dark card1">
+                                <img
+                                    src="img/awwwards.png.png"
+                                    class="card-img-top p-3"
+                                    style="width: 200px"
+                                />
+                                <div class="card-body pt-5">
+                                    <a
+                                        href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?t=FWYaxIbk1QsdF7DO-0"
+                                        class="text-white fw-bolder"
+                                        >Learn more<img src="img/Vector.svg"
+                                    /></a>
+                                    <p class="card-text text-white">
+                                        Cras ullamcorper laoreet erat suscipit.
+                                        Sed id lacus blandit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--second-section-->
+
+        <div class="bg-light">
+            <div>
+                <div class="row">
+                    <div class="col-8">
+                        <h1 class="text-white px-5 pt-5">Our Services</h1>
+                        <p class="text-white px-5 pb-5">
+                            We bring real solutions to each client's problems
+                            through a deep understanding of their market,
+                            solution, and vision.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <a href="#" class="btn btn-outline-primary btn1"
+                            >See all case studies</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row two-card">
+                    <div class="col-6">
+                        <div class="card">
+                            <img
+                                src="/img/01.jpg.svg"
+                                class="card-img-top pb-5"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Travelers Portal with Smart Search
+                                </h5>
+                                <p class="card-text">
+                                    Aenean sed mi ut erat venenatis imperdiet.
+                                    Mauris sed turpis ac elit ultricies rhoncus
+                                    id et magna donec euismod interdum risus.
+                                </p>
+                                <a href="#" class="btn btn-outline-primary"
+                                    >See all case studies</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <img
+                                src="img/02.jpg.svg"
+                                class="card-img-top pb-5"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Fintech App for Financial Management
+                                </h5>
+                                <p class="card-text">
+                                    Nullam semper enim quis vulputate mollis.
+                                    Donec ultrices elementum mauris, ac
+                                    porttitor mi cursus eget vestibulum tellus
+                                    sodales.
+                                </p>
+                                <a href="#" class="btn btn-outline-primary"
+                                    >See all case studies</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--third-section-->
+        <div class="container-third-section pt-5">
+            <h2 class="px-5">What Our Clients Say About Us</h2>
+            <div class="row row2">
+                <div class="col-5 pt-5">
+                    <ul class="list-group px-5 mb-5">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="p-3" src="img/48.jpg.png" />
+                                </div>
+                                <div class="col-9">
+                                    <p class="fw-bolder">Jack Taylor</p>
+                                    <p>Co-founder of Lorem Company</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="p-3" src="img/49.jpg.png" />
+                                </div>
+                                <div class="col-9">
+                                    <p class="fw-bolder">Annette Black</p>
+                                    <p>VP of Strategy, Stretto Inc.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="p-3" src="img/50.jpg.png" />
+                                </div>
+                                <div class="col-9">
+                                    <p class="fw-bolder">Mel Gibson</p>
+                                    <p>Founder & CEO, Uber</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-7 align-items-start p-5">
+                    <h4>
+                        “Exceptional Service and <br />
+                        Quality Results.”
+                    </h4>
+                    <img src="img/yıldız.svg" />
+                    <img src="img/yıldız.svg" />
+                    <img src="img/yıldız.svg" />
+                    <img src="img/yıldız.svg" />
+                    <img src="img/yıldız.svg" />
+                    <br />
+                    <p class="pt-5">
+                        In quas adipisci assumenda voluptas eveniet obcaecati
+                        est quis sapiente voluptatum iste porro blanditiis
+                        debitis ut beatae, fugit quidem fugiat eum molestias?
+                        Dolore magni harum officia tempore eos sapiente.
+                        Voluptatibus pariatur omnis libero unde quasi optio,
+                        tenetur reprehenderit tempore necessitatibus harum
+                        mollitia qui. Maxime, quas tempore. Sunt quaerat porro
+                        facere blanditiis voluptatibus.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--fourth-section-->
+        <div class="p-5 bg-dark">
+            <div class="row p-5">
+                <h2 class="text-white text-center p-5">
+                    Ready to Get Started?
+                </h2>
+                <p class="text-white-50 text-center p-5">
+                    Write your email address so we can contact you
+                </p>
+                <br />
+                <div class="input-group mb-3">
+                    <img class="bg-light img-fluid" src="img/Icon.png" />
+                    <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Your email"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                    />
+                    <span class="input-group-text" id="basic-addon2"
+                        >Get in touch</span
+                    >
+                </div>
+            </div>
+        </div>
+        <!--footer-section-->
+        <div class="">
+            <div class="row row3">
+                <div class="col-6 p-5">
+                    <img src="img/Container (3).png" />
+                    <br />
+                    <p class="text-black-50 p-2">
+                        Proin ipsum pharetra, senectus eget scelerisque varius
+                        pretium platea velit. Lacus, eget eu vitae nullam proin
+                        turpis etiam mi sit. Non feugiat feugiat egestas nulla
+                        nec. Arcu tempus, eget elementum dolor ullamcorper
+                        sodales ultrices eros.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row p-5 footer">
+                            <div class="col">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684"
+                                            >Home</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684"
+                                            >Services</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684"
+                                            >Case Studies</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684"
+                                            >Careers</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684"
+                                            >Blog</a
+                                        >
+                                    </li>
+                                    <br />
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684&t=9ISa6Yczc6ch3NiN-0"
+                                            >Terms <span>&</span>Conditions</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684&t=9ISa6Yczc6ch3NiN-0"
+                                            >Privacy Policy</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684&t=tQMP6iKN9oYHM1km-0"
+                                            >Facebook</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684&t=tQMP6iKN9oYHM1km-0"
+                                            >LinkedIn</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684&t=tQMP6iKN9oYHM1km-0"
+                                            >Twitter</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.figma.com/design/7zMw0cLQsVT9GfCbOrMTbU/Untitled?node-id=67-684&t=tQMP6iKN9oYHM1km-0"
+                                            >Instagram</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <h5>Contact Us</h5>
+                                        <a href="http://">email@example.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+        </div>
+<footer class="bg-dark pt-5">
+    <div class="container-rights text-center p-3">
+        <p class="text-white mb-5 px-5">
+            © All rights reserved. Made by
+            <span class="fw-bolder text-white-50">Createx Studio</span>
+        </p>
     </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+</div>
+</footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

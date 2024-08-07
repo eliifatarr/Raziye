@@ -146,3 +146,45 @@ input:checked + .slider:before {
 .hero-section{
     position: relative;
 }
+
+ul li a{
+    color: black;
+    text-decoration: none !important; 
+}
+.roww{
+    padding-bottom: 8px;
+}
+
+.container-section{
+    background-color:#0a1019 ;
+}
+.card1{
+    background-color:#151822 !important;
+    width: 16rem;
+    height: 20rem;
+    margin-right: 2px;
+}
+.card2{
+    padding-right: 1px !important;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.input-group-text{
+    background-color:#6266f1 ;
+}
+.cardd{
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.list-group li{
+    background-color: #eef2fc;
+}
+.btn1{
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.row3{
+    padding-left: 150px;
+}
