@@ -1,66 +1,148 @@
-
-ul li a{
-    color: black;
-    text-decoration: none !important; 
+.dr-1{
+    color: blue !important;
 }
-.roww{
-    padding-bottom: 8px;
+.btn-1{
+    color: white !important;
+    width: 124.48px;
+height: 39.58px;
+top: 10.2px;
+left: 1179.52px;
+border-radius: 6px;
+border-color:#6366F1;
+background-color: #6366F1;
 }
-
-.container-section{
-    background-color:#0a1019 ;
+.btn-1::before{
+    content: "\F242;
 }
-.card1{
-    background-color:#151822 !important;
-    width: 16rem;
-    height: 20rem;
-    margin-right: 2px;
-}
-.card2{
-    padding-right: 1px !important;
-    padding-bottom: 10px;
-    justify-content: center;
-}
-.container-second-section{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.container-third-section{
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.fourth-section-container{
-    background-color:#181726 !important;
-    margin-left: 200px;
-    margin-right: 200px;
+.btn-2{
+    border-color: #6366F1;
+    background-color: white;
+    color: #6366F1;
+    width: 151.47px;
+    height: 52.69px;
+    top: 520.73px;
+    left: 20px;
+    padding: 12.75px 32.67px 14.34px 33px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
 }
 
-.elif{
-    margin-left: 200px !important;
-    margin-right: 200px !important;
+.img-1{
+    width: 436px;
+    height: 300px;
+    background-repeat: no-repeat;
 }
-.input-group-text{
-    background-color:#6266f1 ;
+.img-2{
+    background-color:#f3f6ff;
+    width: 436px;
+    height: 300px;
 }
-.cardd{
-    padding-bottom: 30px;
-    justify-content: center;
+.img-3{
+    background-color:#f3f6ff;
+    width: 436px;
+    height: 300px;
 }
-.list-group li{
-    background-color: #eef2fc;
+
+.navbar{
+    position:fixed; top:5px; left:0px; right:0px;
 }
-.btn1{
-    justify-content: center;
-    margin-top: 60px;
+section.nav{
+    background-image: url(/img/Background.png) !important;
+    width: 100%;
+    height:800px ;
 }
-.container-footer-section{
-    margin: 50px 30px;
-    padding: 10px 6px;
-    width: 90%;
+.btn-second{
+    color: white;
+    background-color: #6366F1;
+    width: 201.06px;
+height: 76.69px;
+top: 336px;
+left: 449px;
+padding: 25.34px 32.7px 25.75px 33px;
+border-radius: 8px 0px 0px 0px;
 }
-.row3{
-    padding-left: 150px;
+ul{
+    list-style: none;
+}
+.bg-light{
+    background-image: url(/img/MaskGroup.png);
+    height: 100vh;
+}
+.nav-link,.brand-1,.middle,.end-triple{
+    color: white !important;
+}
+
+.end-triple{
+    position: absolute;
+    bottom: 15px;
+
+}
+.landing{
+    color:#3f42df !important;
+}
+.icon{
+    color: white !important;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #6366F1;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #6366F1;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+.hero-section{
+    position: relative;
 }
